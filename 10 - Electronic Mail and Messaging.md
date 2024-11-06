@@ -13,12 +13,12 @@
 - Mail is delivered to the recipient's mailbox on the mail server.
   - Recipient can retrieve the mail at their convenience.
   - Recipient may be informed of new mail by the mail server.
-- Recieved mail may be stored for later use.
+- Received mail may be stored for later use.
 
 ### Reasons for popularity
 
 - **Widely used**: Almost everyone has an email address.
-- **Easy to use**: User-friendly features. Convenience of reading at your convenience.
+- **Easy to use**: User-friendly features. The convenience of reading at your convenience.
 - **Cost-effective**: No need for paper, envelopes, stamps, etc.
 - **Reliable**: Messages are stored on the mail server until the recipient retrieves them.
 - **Fast**: Messages are delivered in seconds.
@@ -36,7 +36,7 @@
 
 - Used for Real-time text communication between users.
 - **Examples**: WhatsApp, Messenger, Slack, Microsoft Teams.
-- Usually the messages are short.
+- Usually, the messages are short.
 - Message delivery is extremely fast.
 - **Advantages**:
   - **Real-time communication**: Instant response.
@@ -47,8 +47,8 @@
 
 - Used for asynchronous discussion on specific topics/groups in a structured format.
 - **Examples**: Reddit, Stack Overflow, Quora.
-- Convienient to read, reply and archive messages.
-- Login to website (or app) to access.
+- Convenient to read, reply, and archive messages.
+- Login to the website (or app) to access.
 - May also provide email interface (E.g. email notifications).
 
 # E-Mail Systems
@@ -88,7 +88,7 @@
   - **Store**: Store messages for the message store to access.
   - **Send**: Forward messages from mail clients to other mail servers.
 - Additional functions:
-  - May store messages temporarily if recipient's mail server is unavailable.
+  - May store messages temporarily if the recipient's mail server is unavailable.
   - May filter messages for spam, viruses, etc.
   - May handle mailing lists.
 
@@ -107,7 +107,7 @@
   - **Translate**: Convert messages between different mail systems.
   - **Filter**: Filter messages for spam, viruses, etc.
   - **Route**: Route messages to the correct mail server. This includes handling mailing lists.
-- If a mail gateway is setup, the mail server do not need to perform these functions. Instead, the mail server forwards messages to the mail gateway.
+- If a mail gateway is set up, the mail server does not need to perform these functions. Instead, the mail server forwards messages to the mail gateway.
 </details>
 
 ### Message Store
@@ -148,7 +148,7 @@
 
 ### Receiving an Email
 
-1. Recipient's MUA checks the recipient's mailbox on the message store.
+1. The recipient's MUA checks the recipient's mailbox on the message store.
 2. Recipient's MUA downloads the email using the retrieval protocol (POP3 or IMAP).
 
 ### Mailing Lists
@@ -164,7 +164,7 @@
 - Simple text-based protocol.
 - Uses client-server architecture.
   - The email comes from the client.
-  - The email is recieved by the server.
+  - The email is received by the server.
 - Uses command-response interactions.
   - Commands are sent by the client.
   - Responses are sent by the server.
@@ -209,7 +209,7 @@
 - Uses PGPs (Pretty Good Privacy) or S/MIME (Secure/Multipurpose Internet Mail Extensions).
 - Needs public key infrastructure (PKI) to work.
   - PKI is used to manage public and private keys.
-  - Crtification authorities (CAs) issue digital certificates.
+  - Certification authorities (CAs) issue digital certificates.
 
 ### Authentication
 
@@ -251,7 +251,7 @@
 #### To
 
 - The name and email address of the primary recipient(s).
-- May be multiple recipients.
+- There may be multiple recipients.
 - May be different from the envelope recipient.
 
 #### CC
@@ -280,7 +280,7 @@
 
 - A unique identifier for the email.
 
-#### Recieved
+#### Received
 
 - A record of the email's journey from the sender to the recipient.
 - Each **mail server adds a "Received" header**.
@@ -300,7 +300,7 @@
 > Then, each part has its own `Content-Type`,`Content-Transfer-Encoding`, etc.
 >
 > ```http
-> From: Amara@roti.lkFrom: Amara@roti.lk
+> From: Amara@roti.lk
 > To: Pala@hoppers.edu
 > Subject: Picture of yummy roti.
 > MIME-Version: 1.0
